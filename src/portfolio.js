@@ -23,7 +23,7 @@ const socialMediaLinks = {
   github: "https://github.com/habiba2012",
   linkedin: "https://www.linkedin.com/in/habiba-akhter-2884ba26/",
   gmail: "habibaakhter2012@gmail.com",
-  medium: "https://medium.com/@habiba",
+  medium: "",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -160,22 +160,59 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/cs-project-img.png"),
       projectName: "Sustainable fashion shops ",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "React js, python, django rest framework",
       footerLink: [
         {
           name: "Visit Website",
           url: "fa"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/habiba2012/react-django-googleMap-internshipProject"
         }
         //  you can add extra buttons here.
       ]
     },
     {
+      image: require("./assets/images/ecom.png"),
+      projectName: "E-commerce Website ",
+      projectDesc: "React js, react hook, context api, react cart",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://quirky-bhaskara-078592.netlify.app/"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/habiba2012/Ecommerce-react/tree/master"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/covid.png"),
+      projectName: "Covid Tracker Website",
+      projectDesc: "JavaScript, Html5, Css3",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://habiba2012.github.io/covid_traker/"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/habiba2012/covid_traker"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+  
+    /* {
       image: require("./assets/images/qruise-site-img.png"),
       projectName: "Cruise Ship Booking",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,7 +222,7 @@ const bigProjects = {
           url: "https://habiba2012.github.io/ticketBooking-website-javaScript/"
         }
       ]
-    }
+    } */
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -202,7 +239,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "First Bangladeshi to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: (""),
       footerLink: [
         {
