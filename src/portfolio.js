@@ -121,9 +121,9 @@ const workExperiences = {
       companylogo: require("./assets/images/conscious-sweater-logo.png"),
       date: "September 2020 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Full-stack development of a platform for mapping out sustainable fashion shops around the world.",
       descBullets: [
-        "Custom building applications",
+        "",
       /*   "Coaching",
         "Streaming live on YouTube",
         "Creating tutorials" */
@@ -135,15 +135,15 @@ const workExperiences = {
       companylogo: require("./assets/images/rithos-logo.png"),
       date: "July 2019 – September 2020",
       desc:
-        "I lead software developers building the API for the stackholder in order to fulfil the PSD2 regulation requirements."
+        "Front end developer with focus on AngularJS."
     },
     {
-      role: "Frontend Developer ()",
+      role: "Frontend Developer",
       company: "Just Brand International",
       companylogo: require("./assets/images/justBranding-logo.png"),
       date: "November 2018 – July 2019",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "E-commerce Website building (WordPress, WooCommerce)"
     }
   ]
 };
@@ -152,12 +152,11 @@ const workExperiences = {
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  githubUserName: "habiba2012", 
+  showGithubProfile: "true", 
 };
 
-// Some big projects you have worked on
+
 
 const bigProjects = {
   title: "Projects",
@@ -176,7 +175,6 @@ const bigProjects = {
           name: "Source Code",
           url: "https://github.com/habiba2012/react-django-googleMap-internshipProject"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -311,7 +309,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
 // contact Section
