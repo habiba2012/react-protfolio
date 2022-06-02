@@ -133,7 +133,7 @@ const workExperiences = {
       role: "Frontend Developer (Angular 2)",
       company: "Rithos",
       companylogo: require("./assets/images/rithos-logo.png"),
-      date: "July 2019 – September 2020",
+      date: "April 18 – May 2020",
       desc:
         "Front end developer with focus on AngularJS."
     },
@@ -141,7 +141,7 @@ const workExperiences = {
       role: "Frontend Developer",
       company: "Just Brand International",
       companylogo: require("./assets/images/justBranding-logo.png"),
-      date: "November 2018 – July 2019",
+      date: "Jan 2017 – March 2018",
       desc:
         "E-commerce Website building (WordPress, WooCommerce)"
     }
